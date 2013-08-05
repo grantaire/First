@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NewCell.h
 //  First
 //
 //  Created by Gavroche Thenardier on 04.08.13.
@@ -8,13 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITabBarDelegate>
 
-- (void) methodFor: (int) page;
+@interface NewCell : UITableViewCell
 
-
-@property (strong, nonatomic) NSMutableArray *loginsArray;
-@property (strong, nonatomic) NSMutableArray *idArray;
 
 // @property(nonatomic, strong) IBOutlet UILabel *loginLabel;
 // @property(nonatomic, strong) IBOutlet UILabel *idLabel;
