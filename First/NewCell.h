@@ -12,7 +12,7 @@
 @interface NewCell : UITableViewCell
 
 
-// @property(nonatomic, strong) IBOutlet UILabel *loginLabel;
-// @property(nonatomic, strong) IBOutlet UILabel *idLabel;
+@property(nonatomic, strong) IBOutlet UILabel *loginLabel;
+@property(nonatomic, strong) IBOutlet UILabel *idLabel;
 
 @end

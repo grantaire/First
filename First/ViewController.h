@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NewCell.h"
+
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITabBarDelegate>
 

@@ -50,6 +50,10 @@
                                             <constraint firstItem="auD-A7-aP3" firstAttribute="leading" secondItem="NMf-FU-oU6" secondAttribute="leading" type="default" id="isI-mI-MXl"/>
                                             <constraint firstItem="NMf-FU-oU6" firstAttribute="top" secondItem="Vic-cV-bYX" secondAttribute="top" type="default" id="qcx-4h-76w"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="idLabel" destination="auD-A7-aP3" id="WLV-LA-jkr"/>
+                                            <outlet property="loginLabel" destination="NMf-FU-oU6" id="Y1b-OY-HSQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "NewCell.h"
 
 @interface ViewController ()
 
@@ -103,13 +102,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *firstTableIdentifier = @"Cell";
+    // static NSString *firstTableIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:firstTableIdentifier];
-    
-    
+    NewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"Cell"];
     
     
+    
+    /*
     UILabel *theLoginLabel;
     UILabel *theIDLabel;
     
@@ -118,9 +117,9 @@
     
     theIDLabel = (UILabel *)[cell viewWithTag:11];
     theIDLabel.text = [idArray objectAtIndex:indexPath.row];
+    */
     
-    
-    // cell.loginLabel.text = [loginsArray objectAtIndex:indexPath.row];
+    cell.loginLabel.text = [loginsArray objectAtIndex:indexPath.row];
 
     return cell;
 }

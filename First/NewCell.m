@@ -13,8 +13,8 @@
 
 // Automatically generate code for accessing the properties in .h
 
-// @synthesize loginLabel = loginLabel;
-// @synthesize idLabel = idLabel;
+@synthesize loginLabel = loginLabel;
+@synthesize idLabel = idLabel;
 
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
